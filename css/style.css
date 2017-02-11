@@ -1,0 +1,148 @@
+
+
+#nameTitle{
+  padding-bottom: 100px;
+  background-color: #90EE90;
+}
+
+#myName {
+  margin-top: 300px;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  color: white;
+}
+
+#position{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 190px;
+}
+
+#myimg{
+width: 350px;
+padding: 10px
+}
+
+
+#proT{
+margin-top: 100px;
+margin-bottom: 50px;
+text-transform: uppercase;
+}
+
+#aboutT{
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  letter-spacing: 10px;
+}
+
+#aboutMe{
+  margin-top: 30px;
+}
+
+#aboutB{
+  margin-top: 30px;
+  text-align: left;
+  font-size: 20px;
+}
+#printingT{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+#printingDes {
+font-size: 20px;
+}
+
+#printingImg{
+  margin-top: 110px;
+}
+
+#codecore4{
+  margin-top: 100px;
+}
+
+#codecore4T{
+  margin-bottom: 30px;
+}
+
+#codecore4Des{
+  font-size: 20px;
+}
+
+#codecore4Img{
+  margin-top: 30px;
+}
+
+
+#skillsT{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.col-lg-2{
+  margin-top: 30px;
+}
+
+#skills{
+  margin-bottom: 150px;
+}
+
+#contact{
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+#contactT{
+  margin-bottom: 60px;
+}
+
+#phone{
+  margin-top: 70px;
+}
+
+#email{
+  margin-top: 70px;
+}
+
+nav.navbar-default {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0px;
+}
+
+nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#formName{
+  width: 73%;
+  padding: 4px 10px;
+  margin:10px 0px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+
+}
+#formEmail{
+  width: 73%;
+  padding: 4px 10px;
+  margin:10px 0px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+
+}
+#formTextarea{
+  width: 992px;
+  height: 184px;
+  padding: 4px 10px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+#formBtn{
+  width:118px;
+
+}
