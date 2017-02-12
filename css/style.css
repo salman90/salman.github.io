@@ -3,6 +3,8 @@
 #nameTitle{
   padding-bottom: 100px;
   background-color: #90EE90;
+  font-family: 'Alegreya', serif;
+
 }
 
 #myName {
@@ -26,17 +28,34 @@ padding: 10px
 
 
 #proT{
-margin-top: 100px;
-margin-bottom: 50px;
+margin-top: 68px;
+margin-bottom: 5px;
 text-transform: uppercase;
+font-family: 'Slabo 27px', serif;
+letter-spacing: 1.5px;
 }
 
 #aboutT{
-  text-transform: uppercase;
-  margin-bottom: 50px;
-  letter-spacing: 10px;
+  text-transform: capitalize;
+  margin-bottom: -6px;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 1.5px;
+
 }
 
+.fa-linkedin:hover{
+  color: #007bb5 !important;
+}
+.fa-facebook:hover{
+ color: #3b5998!important;
+}
+.fa-twitter:hover{
+  color: #55acee !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
 #aboutMe{
   margin-top: 30px;
 }
@@ -44,16 +63,29 @@ text-transform: uppercase;
 #aboutB{
   margin-top: 30px;
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Alegreya', serif;
 }
 #printingT{
+  font-family: 'Alegreya', serif;
   margin-top: 100px;
   margin-bottom: 30px;
-  font-size: 35px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
 }
-
+#social{
+  margin-left: 28%;
+  margin-top: 5px;
+}
+#social .fa{
+  padding-right: 10px;
+  color: #000;
+}
 #printingDes {
-font-size: 20px;
+font-size: 18px;
+font-family: 'Alegreya', serif;
+
+
 }
 
 #printingImg{
@@ -65,11 +97,16 @@ font-size: 20px;
 }
 
 #codecore4T{
+  font-family: 'Alegreya', serif;
   margin-bottom: 30px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+
 }
 
 #codecore4Des{
-  font-size: 20px;
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
 }
 
 #codecore4Img{
@@ -78,12 +115,17 @@ font-size: 20px;
 
 
 #skillsT{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  font-family: 'Alegreya', serif;
+
 }
 
 .col-lg-2{
   margin-top: 30px;
+  font-family: 'Alegreya', serif;
+
 }
 
 #skills{
@@ -96,6 +138,8 @@ font-size: 20px;
 }
 
 #contactT{
+  font-family: 'Alegreya', serif;
+
   margin-bottom: 60px;
 }
 
@@ -114,9 +158,10 @@ nav.navbar-default {
 }
 
 nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand {
-  color: white;
+  color:#ffffff ;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-family: 'Alegreya', serif;
 }
 #formName{
   width: 73%;
@@ -124,7 +169,6 @@ nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand {
   margin:10px 0px;
   box-sizing: border-box;
   border: 1px solid #cccccc;
-
 }
 #formEmail{
   width: 73%;
@@ -140,9 +184,16 @@ nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand {
   padding: 4px 10px;
   border: 1px solid #cccccc;
   box-sizing: border-box;
+
 }
 
 #formBtn{
   width:118px;
-
+}
+#section4{
+  margin-bottom: 10%;
+}
+h2{
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
 }
