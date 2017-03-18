@@ -16,15 +16,10 @@ $(document).ready(function(){
   }
 });
 
-function collapseNavOnClick() {
-  $(".navbar-nav li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
-  });
-}
+
 
 
 function respond() {
-  collapseNavOnClick();
 }
 
 $(document).ready(function() {
