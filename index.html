@@ -14,16 +14,21 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target="#navbarScroll" data-offset="50">
 
   <nav class = "navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navber-header">
-        <a class="navbar-brand" href="#">Salman Salem</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="#">Salman Salem</a>
       </div>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#section1">ABOUT</a></li>
+          <li class="active"><a href="#section1">ABOUT</a></li>
           <li><a href="#section2">Projects</a></li>
           <li><a href="#section3">Skills</a></li>
           <li><a href="#section4">Contact me</a></li>
