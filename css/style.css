@@ -84,8 +84,6 @@ a:hover {
 #printingDes {
 font-size: 18px;
 font-family: 'Alegreya', serif;
-
-
 }
 
 #printingImg{
@@ -113,6 +111,17 @@ font-family: 'Alegreya', serif;
   margin-top: 30px;
 }
 
+#blogDes {
+font-size: 18px;
+font-family: 'Alegreya', serif;
+}
+
+#blogT{
+  font-family: 'Alegreya', serif;
+  margin-bottom: 30px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
 
 #skillsT{
   margin-top: 40px;
@@ -186,8 +195,7 @@ nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand {
   box-sizing: border-box;
 
 }
-#textAreaCon{
-}
+
 
 #formBtn{
   width:118px;
@@ -198,4 +206,8 @@ nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand {
 h2{
   font-size: 20px;
   font-family: 'Alegreya', serif;
+}
+
+#blog{
+  margin-top: 80px;
 }
