@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand').css('color', '#000');
       } else {
         $('nav.navbar-default').css('background-color', 'transparent');
-        $('nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand').css('color', '#000');
+        $('nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-brand').css('color', 'black ');
       }
     });
   }
@@ -19,14 +19,15 @@ $(document).ready(function(){
 function collapseNavOnClick() {
   $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse('hide');
-});
-
-
-
-function respond() {
-  navbarColourChange();
+  });
 }
 
-$(document).ready(function() {
-  respond();
-});
+
+
+// function respond() {
+//   navbarColourChange();
+// }
+// //
+// $(document).ready(function() {
+//   respond();
+// });
